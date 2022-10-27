@@ -1,16 +1,18 @@
 # SistemaPecas
-Savinis - Cadastro de Peças
+## Savinis - Cadastro de Peças
 
-3 Requisitos:
+### Requisitos:
 
-- Verificar se peça pesa mais de 100g (OK)
-	Sim: Pode cadastrar (OK)
-	Não: Não pode cadastrar (OK)
+- Verificar se peça pesa mais de 100g
+	- Se Sim: Prosseguir com o cadastro
+	- Senão: Não prosseguir com o cadastro
 
-- Verificar quantidade de peças cadastradas, não pode ter mais de 10 peças (OK)
-	Menos de 10: pode cadastrar (OK)
-	10 ou mais: Não pode cadastrar (OK)
+- Verificar quantidade de peças cadastradas, não podendo ultrapassar 10 peças
+	- Se Menos de 10 peças: Prosseguir com o cadastro
+	- 10 ou mais: Não prosseguir com o cadastro
 
-- Verificar o comprimento do nome da peça (OK)
-	Menos de 3 caracteres: Não pode cadastrar (OK)
-	3 ou mais caracteres: Pode cadastrar (OK)
+- Verificar o comprimento do nome da peça
+	- Se a palavrar possuir 3 ou mais caracteres: Prosseguir com o cadastro
+	- Se a palavra possuir menos de 3 caracteres: Não prosseguir com o cadastro
+
+#### Sendo toros os requisitos preenchidos a peça será cadastrada!
